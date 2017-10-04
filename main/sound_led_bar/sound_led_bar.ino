@@ -11,8 +11,7 @@ void setup()
 
 void loop()
 {
-  // 0 = 0x0 = all 10 LEDs turned off
-  // 1023 = 0x3FF = all 10 LEDs lit up.
+	//LED use binary from 0 to 1023 = 2^10-1. There are 10 slots in the LED bar.
 
     long sum = 0;
     for(int i=0; i<32; i++)
