@@ -24,6 +24,7 @@ void loop()
     sum = sum-180;
   
     bar.setBits(sum);	//Turns on the LED bar and sets the number.
-    Serial.println(sum);
+    Serial.println(sum);	//Prints the value in serial monitor.
+	
     delay(100);
 }
