@@ -19,8 +19,8 @@ void loop()
         sum += analogRead(pinAdc);
     }
 
+	//We shift numbers 5 digits and substract a value of 180 to make it fit the range of 0-1023.
     sum >>= 5;
-
     sum = sum-180;
   
     bar.setBits(sum);
