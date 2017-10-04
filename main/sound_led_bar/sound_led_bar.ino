@@ -5,9 +5,8 @@ Grove_LED_Bar bar(9, 8, 0);  // Clock pin, Data pin, Orientation. Modify for you
 
 void setup()
 {
-  // nothing to initialize
-  Serial.begin(9600);
-  bar.begin();
+  Serial.begin(9600);	//We print to serial monitor
+  bar.begin();	//Initialize the LED bar.
 }
 
 void loop()
