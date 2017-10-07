@@ -14,3 +14,5 @@ http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json
 2. Then go to *Tools -> Boards -> Board Manager...* and in the search box look for **LinkIt**. Install the additional libraries.
 
 ![install03](/images/install03.gif?raw=true)
+
+## Code and configuration
