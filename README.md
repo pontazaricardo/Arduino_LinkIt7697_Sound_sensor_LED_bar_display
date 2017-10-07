@@ -60,3 +60,4 @@ void loop()
 	...
 }
 ```
+where the function *setBits(i)* has an input from 0 to 1023.
