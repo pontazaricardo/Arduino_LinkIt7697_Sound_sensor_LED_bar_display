@@ -29,6 +29,5 @@ In order to use the LED Bar, we need to import the **Grove_LED_Bar** library and
 ```arduino
 #include <Grove_LED_Bar.h>
 
-const int pinAdc = A0;
 Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your input pin (in our case, pin 8 in the LinkIt 7697).
 ```
