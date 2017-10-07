@@ -17,6 +17,8 @@ http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json
 
 3. Finally install the USB driver (CP210x) from [here](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), selecting the correct OS configuration.
 
+![install04](/images/usb_driver.png?raw=true)
+
 ## Code and configuration
 
 In order to correctly connect the board and the sensors, the code has to be analyzed first.
