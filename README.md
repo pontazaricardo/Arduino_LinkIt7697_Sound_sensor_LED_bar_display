@@ -25,3 +25,4 @@ In order to correctly connect the board and the sensors, the code has to be anal
 
 ### Code
 
+The code for this project have some important sections.
