@@ -31,3 +31,5 @@ In order to use the LED Bar, we need to import the **Grove_LED_Bar** library and
 
 Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your input pin (in our case, pin 8 in the LinkIt 7697).
 ```
+
+Note that the LED bar has only 3 important pins: **3.3V, Gnd** and its input. In this case, the input is on pin 8.
