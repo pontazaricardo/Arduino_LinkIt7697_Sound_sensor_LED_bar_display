@@ -60,4 +60,4 @@ void loop()
 	...
 }
 ```
-where the function *setBits(i)* has an input from 0 to 1023. If a greater or lower number is given, a overflow or underflow will happen and a different number will be displayed.
+where the function *setBits(i)* has an input from 0 to 1023. Please be aware that if a greater or lower number is given, an overflow or underflow will happen and a different number will be displayed.
