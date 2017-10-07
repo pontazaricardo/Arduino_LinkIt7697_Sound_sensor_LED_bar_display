@@ -16,3 +16,5 @@ http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json
 ![install03](/images/install03.gif?raw=true)
 
 ## Code and configuration
+
+In order to correctly connect the board and the sensors, the code has to be analyzed first.
