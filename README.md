@@ -44,4 +44,19 @@ void setup()
 	bar.begin();	//Initialize the LED bar.
 }
 ```
-Finally, the LED bar has 10 LEDs, so it can display any binary number between 0 and 2^10-1=1023.
+Finally, the LED bar has 10 LEDs, so it can display any binary number between 0 and 2^10-1=1023. In order to do so, in the *loop* section use the following code
+```arduino
+void loop()
+{
+	//LED use binary from 0 to 1023 = 2^10-1. There are 10 slots in the LED bar.
+
+	...
+	
+	int i=153;
+	
+	bar.setBits(i);	//Turns on the LED bar and sets the number.
+	Serial.println(i);	//Prints the value in serial monitor.
+
+	...
+}
+```
