@@ -36,7 +36,7 @@ Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your
 
 Note that the LED bar has only 3 important pins: **3.3V, Gnd** and its input. In this case, the input is on pin 8. 
 
-For starting the LED bar, just add the *begin* command to setup.
+For starting it, just add the *begin* command to setup.
 ```arduino
 void setup()
 {
@@ -44,3 +44,4 @@ void setup()
 	bar.begin();	//Initialize the LED bar.
 }
 ```
+Finally, the LED bar has 10 LEDs, so it can display any binary number between 0 and 2^10-1=1023.
