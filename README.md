@@ -25,6 +25,8 @@ In order to correctly connect the board and the sensors, the code has to be anal
 
 ### Code
 
+#### LED Bar
+
 In order to use the LED Bar, we need to import the **Grove_LED_Bar** library and initialize the **Grove_LED_Bar** object as follows.
 ```arduino
 #include <Grove_LED_Bar.h>
@@ -32,4 +34,13 @@ In order to use the LED Bar, we need to import the **Grove_LED_Bar** library and
 Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your input pin (in our case, pin 8 in the LinkIt 7697).
 ```
 
-Note that the LED bar has only 3 important pins: **3.3V, Gnd** and its input. In this case, the input is on pin 8.
+Note that the LED bar has only 3 important pins: **3.3V, Gnd** and its input. In this case, the input is on pin 8. 
+
+For starting the LED bar, just add the *begin* command to setup.
+```arduino
+void setup()
+{
+	Serial.begin(9600);	//We print to serial monitor
+	bar.begin();	//Initialize the LED bar.
+}
+```
