@@ -97,3 +97,6 @@ Because in our code we find the lines
 const int pinAdc = A0;
 Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your input pin (in our case, pin 8 in the LinkIt 7697).
 ```
+We then need to update the connections accordingly:
+1. Connect the LED bar to the IC2 port.
+2. Connect the sound sensor to the A0 port.
