@@ -2,6 +2,8 @@
 
 This project shows how to connect a sound sensor (analogic) and how to display its output in a LED bar display using LinkIt 7697.
 
+![demo01](/images/demo_01.gif?raw=true)
+
 ## Installation
 
 If you want to use the **LinkIt 7697** with the Arduino IDE, follow [this](https://docs.labs.mediatek.com/resource/linkit7697-arduino/en/environment-setup) tutorial. As a summary:
