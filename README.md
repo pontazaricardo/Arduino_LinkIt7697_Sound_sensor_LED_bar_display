@@ -43,7 +43,7 @@ For starting it, just add the *begin* command to setup.
 void setup()
 {
 	Serial.begin(9600);	//We print to serial monitor
-	bar.begin();	//Initialize the LED bar.
+	bar.begin();		//Initialize the LED bar.
 }
 ```
 Finally, the LED bar has 10 LEDs, so it can display any binary number between 0 and 2^10-1=1023. In order to do so, in the *loop* section use the following code
@@ -63,3 +63,4 @@ void loop()
 }
 ```
 where the function *setBits(i)* has an input from 0 to 1023. Please be aware that if a greater or lower number is given, an overflow or underflow will happen and a different number will be displayed.
+
