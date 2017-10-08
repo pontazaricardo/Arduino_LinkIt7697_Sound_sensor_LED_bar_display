@@ -73,4 +73,5 @@ The sound sensor used in this project was a standard analog sound sensor.
 In order to read its inputs, we need to define the analogic pin that will provide the board with the sensors data.
 
 ```arduino
+const int pinAdc = A0;
 ```
