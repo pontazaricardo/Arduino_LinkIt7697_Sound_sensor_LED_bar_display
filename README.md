@@ -102,3 +102,5 @@ We then need to update the connections accordingly:
 2. Connect the sound sensor to the A0 port.
 
 Please beware that in both ports, the GND and 3.3V pins match with the GND and 3.3V pins in both the LED bar and the sensor.
+
+![sensor02](/images/pic_c_1.jpg?raw=true)
