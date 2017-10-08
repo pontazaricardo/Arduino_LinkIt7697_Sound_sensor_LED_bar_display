@@ -100,3 +100,5 @@ Grove_LED_Bar bar(9, 8, 0);	// Clock pin, Data pin, Orientation. Modify for your
 We then need to update the connections accordingly:
 1. Connect the LED bar to the IC2 port.
 2. Connect the sound sensor to the A0 port.
+
+Please beware that in both ports, the GND and 3.3V pins match with the GND and 3.3V pins in both the LED bar and the sensor.
