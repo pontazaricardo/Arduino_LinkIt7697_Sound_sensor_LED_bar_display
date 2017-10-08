@@ -56,7 +56,7 @@ void loop()
 	
 	int i=153;
 	
-	bar.setBits(i);	//Turns on the LED bar and sets the number.
+	bar.setBits(i);		//Turns on the LED bar and sets the number.
 	Serial.println(i);	//Prints the value in serial monitor.
 
 	...
