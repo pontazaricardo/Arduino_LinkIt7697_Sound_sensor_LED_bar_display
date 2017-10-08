@@ -90,3 +90,5 @@ void loop()
 	...
 }
 ```
+### Connections
+
