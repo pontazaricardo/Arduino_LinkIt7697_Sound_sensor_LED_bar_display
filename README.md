@@ -75,3 +75,18 @@ In order to read its inputs, we need to define the analogic pin that will provid
 ```arduino
 const int pinAdc = A0;
 ```
+and we need to read its content inside the *loop* cycle as
+```arduino
+void loop()
+{
+	...
+
+	long value = analogRead(pinAdc);
+	
+	Serial.println(value);	//Prints the value in serial monitor.
+
+	delay(100);	//Sets up a delay.
+	
+	...
+}
+```
