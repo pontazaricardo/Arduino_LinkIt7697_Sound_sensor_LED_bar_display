@@ -68,3 +68,4 @@ where the function *setBits(i)* has an input from 0 to 1023. Please be aware tha
 
 The sound sensor used in this project was a standard analog sound sensor.
 
+![sensor01](/images/pic_c_1.jpg?raw=true)
