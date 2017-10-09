@@ -109,6 +109,10 @@ Please beware that in both ports, the GND and 3.3V pins match with the GND and 3
 
 ![sensor04](/images/pic_c_11.jpg?raw=true)
 
+## Extensions
+
+This project can be modified to use any other analogic sensor, such as a light sensor. Just connect it to the A0 port.
+
 ## Demo
 
 A demo of the LED bar displaying different values depending on the detected sound intensity can be seen below.
