@@ -104,3 +104,5 @@ We then need to update the connections accordingly:
 ![sensor02](/images/pic_c_12.jpg?raw=true)
 
 Please beware that in both ports, the GND and 3.3V pins match with the GND and 3.3V pins in both the LED bar and the sensor.
+
+![sensor02](/images/pic_c_00.jpg?raw=true)
