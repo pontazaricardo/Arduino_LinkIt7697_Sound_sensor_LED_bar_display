@@ -112,3 +112,5 @@ Please beware that in both ports, the GND and 3.3V pins match with the GND and 3
 ## Demo
 
 A demo of the LED bar displaying different values depending on the detected sound intensity can be seen below.
+
+![demo01](/images/demo_01.gif?raw=true)
